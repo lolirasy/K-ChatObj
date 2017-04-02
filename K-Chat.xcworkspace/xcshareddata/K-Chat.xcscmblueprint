@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BA5162C08E7B0266948ECD30B0B2C4612B35E1FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA5162C08E7B0266948ECD30B0B2C4612B35E1FA" : 9223372036854775807,
+    "60A3612DB4AFC242A67F298FB03FA7C3805AAC30" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA839004-3F5E-4A71-A989-C1770424B26F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA5162C08E7B0266948ECD30B0B2C4612B35E1FA" : "K-Chat\/",
+    "60A3612DB4AFC242A67F298FB03FA7C3805AAC30" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "K-Chat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "K-Chat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lolirasy\/KhmerArticleNews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60A3612DB4AFC242A67F298FB03FA7C3805AAC30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lolirasy\/K-ChatObj.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA5162C08E7B0266948ECD30B0B2C4612B35E1FA"
+    }
+  ]
+}

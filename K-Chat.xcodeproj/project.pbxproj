@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		779AB85E80A4BF677FC6272E /* libPods-K-Chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF3631D1BDDE208ABFC660B /* libPods-K-Chat.a */; };
+		DF470BAF1D13D186001EC7A0 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF470BAE1D13D186001EC7A0 /* ChatViewController.m */; };
+		DF4DABFA1D1E7CF000572A35 /* TabBarChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DABF91D1E7CF000572A35 /* TabBarChatController.m */; };
+		DF5E68431D0992740094D067 /* myLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5E68421D0992740094D067 /* myLogin.m */; };
+		DF655CE91D12B2E000C77BE6 /* homeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF655CE81D12B2E000C77BE6 /* homeChatViewController.m */; };
+		DF655CEC1D12B30A00C77BE6 /* homeChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF655CEB1D12B30A00C77BE6 /* homeChatViewCell.m */; };
 		DFA8C68F1D0803AB000D1B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8C68E1D0803AB000D1B1C /* main.m */; };
 		DFA8C6921D0803AB000D1B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8C6911D0803AB000D1B1C /* AppDelegate.m */; };
 		DFA8C6951D0803AB000D1B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8C6941D0803AB000D1B1C /* ViewController.m */; };
 		DFA8C6981D0803AB000D1B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA8C6961D0803AB000D1B1C /* Main.storyboard */; };
 		DFA8C69A1D0803AB000D1B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA8C6991D0803AB000D1B1C /* Assets.xcassets */; };
 		DFA8C69D1D0803AB000D1B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA8C69B1D0803AB000D1B1C /* LaunchScreen.storyboard */; };
+		DFAA7AB41D129E6700C2CD59 /* myRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAA7AB31D129E6700C2CD59 /* myRegister.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A2BE0644D1A2F9893405961 /* Pods-K-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-K-Chat/Pods-K-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF3631D1BDDE208ABFC660B /* libPods-K-Chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-K-Chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF470BAD1D13D186001EC7A0 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		DF470BAE1D13D186001EC7A0 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		DF4DABF81D1E7CF000572A35 /* TabBarChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarChatController.h; sourceTree = "<group>"; };
+		DF4DABF91D1E7CF000572A35 /* TabBarChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarChatController.m; sourceTree = "<group>"; };
+		DF5E68411D0992740094D067 /* myLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLogin.h; sourceTree = "<group>"; };
+		DF5E68421D0992740094D067 /* myLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLogin.m; sourceTree = "<group>"; };
+		DF655CE71D12B2E000C77BE6 /* homeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeChatViewController.h; sourceTree = "<group>"; };
+		DF655CE81D12B2E000C77BE6 /* homeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeChatViewController.m; sourceTree = "<group>"; };
+		DF655CEA1D12B30A00C77BE6 /* homeChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeChatViewCell.h; sourceTree = "<group>"; };
+		DF655CEB1D12B30A00C77BE6 /* homeChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeChatViewCell.m; sourceTree = "<group>"; };
 		DFA8C68A1D0803AB000D1B1C /* K-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA8C68E1D0803AB000D1B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFA8C6901D0803AB000D1B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,9 @@
 		DFA8C6991D0803AB000D1B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA8C69C1D0803AB000D1B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFA8C69E1D0803AB000D1B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAA7AB21D129E6700C2CD59 /* myRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myRegister.h; sourceTree = "<group>"; };
+		DFAA7AB31D129E6700C2CD59 /* myRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myRegister.m; sourceTree = "<group>"; };
+		EEDB56D9DA79F7B653C36A61 /* Pods-K-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-K-Chat/Pods-K-Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779AB85E80A4BF677FC6272E /* libPods-K-Chat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126ACA2F9DA9A8278D73675F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BE0644D1A2F9893405961 /* Pods-K-Chat.debug.xcconfig */,
+				EEDB56D9DA79F7B653C36A61 /* Pods-K-Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		644A986FC2F48474956646FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF3631D1BDDE208ABFC660B /* libPods-K-Chat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFA8C6811D0803AB000D1B1C = {
 			isa = PBXGroup;
 			children = (
 				DFA8C68C1D0803AB000D1B1C /* K-Chat */,
 				DFA8C68B1D0803AB000D1B1C /* Products */,
+				126ACA2F9DA9A8278D73675F /* Pods */,
+				644A986FC2F48474956646FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +102,21 @@
 			children = (
 				DFA8C6901D0803AB000D1B1C /* AppDelegate.h */,
 				DFA8C6911D0803AB000D1B1C /* AppDelegate.m */,
+				DF5E68411D0992740094D067 /* myLogin.h */,
+				DF5E68421D0992740094D067 /* myLogin.m */,
 				DFA8C6931D0803AB000D1B1C /* ViewController.h */,
+				DFAA7AB21D129E6700C2CD59 /* myRegister.h */,
+				DFAA7AB31D129E6700C2CD59 /* myRegister.m */,
 				DFA8C6941D0803AB000D1B1C /* ViewController.m */,
 				DFA8C6961D0803AB000D1B1C /* Main.storyboard */,
+				DF4DABF81D1E7CF000572A35 /* TabBarChatController.h */,
+				DF4DABF91D1E7CF000572A35 /* TabBarChatController.m */,
+				DF470BAD1D13D186001EC7A0 /* ChatViewController.h */,
+				DF470BAE1D13D186001EC7A0 /* ChatViewController.m */,
+				DF655CEA1D12B30A00C77BE6 /* homeChatViewCell.h */,
+				DF655CEB1D12B30A00C77BE6 /* homeChatViewCell.m */,
+				DF655CE71D12B2E000C77BE6 /* homeChatViewController.h */,
+				DF655CE81D12B2E000C77BE6 /* homeChatViewController.m */,
 				DFA8C6991D0803AB000D1B1C /* Assets.xcassets */,
 				DFA8C69B1D0803AB000D1B1C /* LaunchScreen.storyboard */,
 				DFA8C69E1D0803AB000D1B1C /* Info.plist */,
@@ -86,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFA8C6A11D0803AB000D1B1C /* Build configuration list for PBXNativeTarget "K-Chat" */;
 			buildPhases = (
+				F4DC152A0F2D8ECE9E8BC825 /* 📦 Check Pods Manifest.lock */,
 				DFA8C6861D0803AB000D1B1C /* Sources */,
 				DFA8C6871D0803AB000D1B1C /* Frameworks */,
 				DFA8C6881D0803AB000D1B1C /* Resources */,
+				1AE26540618B787DD214C95F /* 📦 Embed Pods Frameworks */,
+				C0013C73442EC799208CDE7B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,11 +162,12 @@
 		DFA8C6821D0803AB000D1B1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = KosalPen;
 				TargetAttributes = {
 					DFA8C6891D0803AB000D1B1C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZUNYJ43SN4;
 					};
 				};
 			};
@@ -144,14 +202,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AE26540618B787DD214C95F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-K-Chat/Pods-K-Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0013C73442EC799208CDE7B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-K-Chat/Pods-K-Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DC152A0F2D8ECE9E8BC825 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFA8C6861D0803AB000D1B1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DFA8C6951D0803AB000D1B1C /* ViewController.m in Sources */,
+				DF655CEC1D12B30A00C77BE6 /* homeChatViewCell.m in Sources */,
+				DF4DABFA1D1E7CF000572A35 /* TabBarChatController.m in Sources */,
 				DFA8C6921D0803AB000D1B1C /* AppDelegate.m in Sources */,
 				DFA8C68F1D0803AB000D1B1C /* main.m in Sources */,
+				DFAA7AB41D129E6700C2CD59 /* myRegister.m in Sources */,
+				DF5E68431D0992740094D067 /* myLogin.m in Sources */,
+				DF470BAF1D13D186001EC7A0 /* ChatViewController.m in Sources */,
+				DF655CE91D12B2E000C77BE6 /* homeChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +303,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -214,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -235,8 +349,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -252,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,23 +377,33 @@
 		};
 		DFA8C6A21D0803AB000D1B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2BE0644D1A2F9893405961 /* Pods-K-Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				INFOPLIST_FILE = "K-Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RasySwagneel.K-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		DFA8C6A31D0803AB000D1B1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDB56D9DA79F7B653C36A61 /* Pods-K-Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				INFOPLIST_FILE = "K-Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RasySwagneel.K-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +426,7 @@
 				DFA8C6A31D0803AB000D1B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
